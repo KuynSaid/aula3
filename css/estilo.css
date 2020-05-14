@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url('../img/fundo.jpg');
+    background-size: auto 100vh;
+   font-family: Arial;
+   font-family: 'Source Code Pro', monospace;
+    height; 100vh;
+    font-size: 20px;
+  }
+
+@media (min-width: 400px) {
+  body {
+    font-size: 22px;
+  }
+}
+
+header {
+height: 85vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.menu a {
+  display: block;
+  padding: 20px 20px;
+}
+
+  .menu {
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+  }
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu li {
+    list-style: none;
+  }
+  a {
+    color: purple;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .site-subtitle,
+  .site-title {
+    text-align: center;
+    color: violet;
+  }
+  .site-title {
+  font-size: 3em;
+  font-family: 'Homemade Apple', cursive;
+  }
+  .site-subtitle {
+    font-style: italic;
+    font-family: 'Amatic SC', cursive;
+  }
+
+  .fonte {
+    padding: 2em;
+    margin: 1.5em;
+  }
+  .fonte h2{
+    font-family: 'Pangolin', cursive;
+  }
+
+  .fonte .grid {
+    display: grid;
+    gap: 1.5em;
+  }
+
+    @media (min-width: 560px) {
+    .fonte .grid {
+    grid-template-columns: repeat(2, 250px);
+  }
+  }
+
+  @media (min-width: 560px) {
+    .fonte .grid {
+    grid-template-columns: repeat(2, 250px);
+    justify-content: center;
+  }
+
+
+  .fonte figure {
+    text-align: center;
+  }
+
+  .img-portfolio {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    object-position: bottom;
+  }
